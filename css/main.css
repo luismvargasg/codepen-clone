@@ -297,3 +297,26 @@ footer img {
   max-height: 20px;
   margin: 15px 10px;
 }
+
+/* MOBILE DEVICES */
+@media screen and (max-width: 480px) {
+  #fixed-header {
+    height: auto;
+  }
+
+  #header-container,
+  #nav-bar {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  #right-tools {
+    margin: 20px 0;
+  }
+
+  #courses-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+}
