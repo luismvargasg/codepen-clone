@@ -269,3 +269,31 @@ form label {
 .md-text {
   font-weight: 500;
 }
+
+#its-time {
+  height: 500px;
+}
+
+.in-block {
+  display: flex;
+  text-align: right;
+  margin-right: 40px;
+}
+
+#footer-list ul {
+  display: flex;
+  list-style-type: none;
+}
+
+#footer-list li {
+  margin-left: 4px;
+}
+
+.space-be {
+  justify-content: space-between;
+}
+
+footer img {
+  max-height: 20px;
+  margin: 15px 10px;
+}
