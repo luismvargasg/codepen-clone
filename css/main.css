@@ -315,8 +315,42 @@ footer img {
     margin: 20px 0;
   }
 
+  .content-container {
+    padding: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  #img-container,
+  #join-us-container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #img-container img {
+    max-width: 100%;
+  }
+
   #courses-cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  #head-title {
+    width: 80%;
+  }
+
+  #join-us-container form {
+    width: 80%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .in-block {
+    display: none;
   }
 }
