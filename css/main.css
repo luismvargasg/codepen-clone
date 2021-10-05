@@ -336,6 +336,12 @@ footer img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    height: auto;
+  }
+
+  #courses-cards img {
+    width: 100%;
+    margin-bottom: 20px;
   }
 
   #head-title {
@@ -346,11 +352,53 @@ footer img {
     width: 80%;
   }
 
-  img {
+  .in-block {
+    display: none;
+  }
+
+  .main-container {
+    height: auto;
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+    padding-top: 300px;
+  }
+
+  #first-steps,
+  #how-it-works,
+  #its-time {
+    height: auto;
+    padding: 0;
+  }
+
+  #img-last-section {
     width: 100%;
   }
 
-  .in-block {
-    display: none;
+  .flex-container {
+    display: block;
+    padding: 20px;
+  }
+
+  .left-box,
+  .right-box {
+    width: 100%;
+  }
+
+  .half-box {
+    width: 80%;
+  }
+
+  .right-box img {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  #footer-list ul {
+    padding: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
   }
 }
